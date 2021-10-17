@@ -12,6 +12,10 @@ while [ $# -gt 0 ]; do
     echo '$ gh page yasudanaoya'
     exit 0
     ;;
+  -* | --*)
+    echo "$1 is not found"
+    exit 0
+    ;;
   *)
     name="$1"
     ;;
