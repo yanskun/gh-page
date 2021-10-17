@@ -9,4 +9,14 @@ This extension access to GitHub account page.
 gh extension install yasudanaoya/gh-page
 ```
 
+# command
+
+```
+# your page
+gh page
+
+# target page
+gh page ${name}
+```
+
 ## Demo
