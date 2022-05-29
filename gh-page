@@ -24,7 +24,7 @@ while [ $# -gt 0 ]; do
 done
 
 if [ -z "$name" ]; then
-  name=$(git config user.name)
+  name=$(gh api user -q .login)
 fi
 
 open https://github.com/$name
