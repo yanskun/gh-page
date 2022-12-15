@@ -6,7 +6,7 @@ This extension access to GitHub account page.
 # Install
 
 ```shell
-gh extension install yasudanaoya/gh-page
+gh extension install yanskun/gh-page
 ```
 
 # command
