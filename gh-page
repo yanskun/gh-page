@@ -9,7 +9,7 @@ while [ $# -gt 0 ]; do
     echo "First argument is want to display account or organization name."
     echo "default, your github account name."
     echo "e.g."
-    echo '$ gh page yasudanaoya'
+    echo '$ gh page yanskun'
     exit 0
     ;;
   -* | --*)
